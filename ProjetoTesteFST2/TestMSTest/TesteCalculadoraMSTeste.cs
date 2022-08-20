@@ -25,7 +25,7 @@ namespace TestMSTest
         [DataTestMethod]
         [DataRow(1, 1, 2)]
         [DataRow(2, 2, 4)]
-        [DataRow(1, 2, 2)]
+        [DataRow(1, 2, 3)]
         public void TesteSomarDoisNumerosLista(double pNum, double sNum, double tNum)
         {
             //Act - Ação

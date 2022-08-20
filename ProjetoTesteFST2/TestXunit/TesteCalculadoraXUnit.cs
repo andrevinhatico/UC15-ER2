@@ -24,7 +24,7 @@ namespace TestXUnit
         [Theory]
         [InlineData(1, 1, 2)]
         [InlineData(2, 2, 4)]
-        [InlineData(1, 2, 2)]
+        [InlineData(1, 2, 3)]
 
         public void TesteSomarDoisNumerosLista(double pNum, double sNum, double tNum)
         {
